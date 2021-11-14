@@ -63,11 +63,11 @@ header nav ul li a:hover{
 section{
     padding: 10px;
 }
-
+/*----------------------------------Contenido-----------------------*/
 .contenedor {
 	width: 90%;
 	margin: auto;
-	padding: 15px 0;
+	padding: 15px 0px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -86,7 +86,7 @@ h1 {
 	display: inline-block;
 }
 
-.contenedor-categorias {
+.contenedor-negocios {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -94,60 +94,36 @@ h1 {
     margin-bottom: 20px;
 }
 
-.boton {
+.negocio {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 80px;
-	background: #141414;
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	font-weight: 500;
-	border: none;
-	cursor: pointer;
-	text-transform: uppercase;
-	transition: .3s ease all;
-	border-radius: 5px;
-	position: relative;
-	overflow: hidden;
-    text-decoration: none;
-}
-
-.boton:hover{
-	background: rgb(82, 81, 81);
-}
-
-.dropdown {
+	height: 150px;
+	background:  #fff;
+    color:#141414;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid #141414;
+    text-transform: uppercase;
+    border-radius: 5px;
     position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-  
-  
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background: rgb(82, 81, 81);
+    overflow: hidden;
+    text-align: center;
 }
 
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.green{
+    border-left: 3px solid rgba(19, 235, 19, 0.897);
+}
+
+.yellow{
+    border-left: 3px solid rgb(226, 250, 8);
+}
+
+.red{
+    border-left: 3px solid rgba(235, 8, 8, 0.897);
 }
 
 footer{
@@ -204,7 +180,7 @@ footer{
         display: none;
     }
 
-    .contenedor-categorias {
+    .contenedor-negocios {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -212,24 +188,37 @@ footer{
         padding-bottom: 20px;
     }
 
-    .boton {
+    .negocio {
         display: inline-flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 45px;
-        background: #141414;
-        color: #fff;
+        height: 100px;
+        background:  #fff;
+        color:#141414;
         font-family: 'Roboto', sans-serif;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 300;
-        border: none;
-        cursor: pointer;
+        border-color: 1px solid #141414;
         text-transform: uppercase;
-        transition: .3s ease all;
+        text-align: center;
         border-radius: 5px;
         position: relative;
         overflow: hidden;
+        padding: 0px;
+        
+    }
+
+    .green{
+        border-left: 3px solid rgba(19, 235, 19, 0.897);
+    }
+
+    .yellow{
+        border-left: 3px solid rgb(226, 250, 8);
+    }
+
+    .red{
+        border-left: 3px solid rgba(235, 8, 8, 0.897);
     }
 
     footer{
