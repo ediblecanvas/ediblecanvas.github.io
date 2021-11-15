@@ -114,6 +114,7 @@ h1 {
 }
 
 
+
 .green{
     border-left: 3px solid rgba(19, 235, 19, 0.897);
 }
@@ -207,6 +208,11 @@ footer{
         overflow: hidden;
         padding: 0px;
         
+    }
+
+    .miguel{
+        height: 160px;
+    
     }
 
     .green{
