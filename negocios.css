@@ -142,6 +142,10 @@ footer{
 
 }
 
+.redes{
+    color: white;
+    margin-right: 15px;
+}
 
 
 @media screen and ( max-width:1175px){
@@ -165,7 +169,7 @@ footer{
     }
     .menu_bar .bt-menu {
         display: block;
-        padding: 20px;
+        padding-top: 5px;
         background: #024959;
         color: #fff;
         text-decoration:underline;
@@ -236,6 +240,11 @@ footer{
         color: white;
         font-family: 'Roboto', sans-serif;
         text-align: center;   
+    }
+
+    .redes{
+        color: white;
+        margin-right: 15px;
     }
 
 
