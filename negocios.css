@@ -106,7 +106,6 @@ h1 {
     font-size: 15px;
     font-weight: 300;
     border: 1px solid #141414;
-    text-transform: uppercase;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -146,6 +145,7 @@ footer{
     color: white;
     margin-right: 15px;
 }
+
 
 
 @media screen and ( max-width:1175px){
@@ -208,7 +208,6 @@ footer{
         font-size: 13px;
         font-weight: 300;
         border-color: 1px solid #141414;
-        text-transform: uppercase;
         text-align: center;
         border-radius: 5px;
         position: relative;
@@ -246,6 +245,7 @@ footer{
         color: white;
         margin-right: 15px;
     }
+
 
 
 
