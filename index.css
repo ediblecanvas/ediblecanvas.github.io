@@ -253,16 +253,22 @@ footer{
         color: white;
         margin-right: 15px;
     }
-
-
-
     
+    .indicaciones{
+        border-top: 1px solid rgb(0, 3, 7);
+        border-bottom: 1px solid rgb(0, 3, 7);
+    }
+        
 }
 
 nav{
     z-index: 2;
 }
 
+.indicaciones{
+    border-top: 1px solid rgb(0, 3, 7);
+    border-bottom: 1px solid rgb(0, 3, 7);
+}
 
 
 
